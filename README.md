@@ -1,6 +1,6 @@
-# WEB103 Project 1 - *Name of App Here*
+# WEB103 Project 1 - *Live Events in LA*
 
-Submitted by: **Live Events in LA**
+Submitted by: **Luis Pina**
 
 About this web app: **This is an app that allows users in LA to be able to view upcoming events in their area**
 
