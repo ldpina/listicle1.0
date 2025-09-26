@@ -45,11 +45,11 @@ GIF created with ...  Add GIF tool here
 
 ## Notes
 
-Describe any challenges encountered while building the app or any additional context you'd like to add.
+I was struggling a lot to ensure that my events.js and event.js were two different files to display different items but from the same items
 
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright [2025] [Luis Pina]
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
