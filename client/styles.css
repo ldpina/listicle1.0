@@ -1,0 +1,16 @@
+.event-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem; 
+}
+
+.event-card .event-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.event-card h3 {
+  margin-top: 0;
+}
