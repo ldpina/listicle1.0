@@ -1,10 +1,10 @@
-# WEB103 Project 1 - *Live Events in LA*
+# WEB103 Project 2 - *Events in LA*
 
 Submitted by: **Luis Pina**
 
-About this web app: **This is an app that allows users in LA to be able to view upcoming events in their area**
+About this web app: **Here is a listicle2.0 but with a connected postgress sql server!**
 
-Time spent: **5** hours
+Time spent: **3** hours
 
 ## Required Features
 
@@ -12,17 +12,14 @@ The following **required** functionality is completed:
 
 <!-- Make sure to check off completed functionality below -->
 - [x] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
-- [x] **The web app displays a title**
-- [x] **The web app displays at least five unique list items, each with at least three displayed attributes (such as title, text, and image)**
-- [x] **The user can click on each item in the list to see a detailed view of it, including all database fields**
-  - [x] **Each detail view should be a unique endpoint, such as as `localhost:3000/bosses/crystalguardian` and `localhost:3000/mantislords`**
-  - [] *Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation* 
-- [x] **The web app serves an appropriate 404 page when no matching route is defined**
-- [x] **The web app is styled using Picocss**
+- [x] **The web app is connected to a PostgreSQL database, with an appropriately structured database table for the list items**
+  - [x] **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
+  - [x]  **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command 'SELECT * FROM tablename;' to display your table contents.**
+
 
 The following **optional** features are implemented:
 
-- [ ] The web app displays items in a unique format, such as cards rather than lists or animated list items
+- [ ] The user can search for items by a specific attribute
 
 The following **additional** features are implemented:
 
@@ -30,22 +27,20 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-**Note: please be sure to 
-
 Here's a walkthrough of implemented required features:
 
-<img src='https://github.com/ldpina/listicle1.0/blob/main/listicle.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+[listicle2.0]()
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ScreenToGif  Add GIF tool here
+GIF created with ScreenToGif  GIF tool here
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
+[ScreenToGif](https://www.screentogif.com/)
 [peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
 
-I was struggling a lot to ensure that my events.js and event.js were two different files to display different items but from the same items
+During the conncetion process for accessing my database through the terminal i had to change some of my desktop settingst to be able to use the psql command but other than that it was smooth sailing
 
 ## License
 
