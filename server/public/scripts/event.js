@@ -7,13 +7,13 @@ const renderEvent = async () => {
     if (data != null){
         event = data.find(event => event.id === requestedID);
         document.getElementById('image').src = event.image;
-        document.getElementById('eventName').textContent = event.eventName;
+        document.getElementById('eventName').textContent = event.event_name;
         document.getElementById('artists').textContent = 'Artist(s): ' + event.artists;
         document.getElementById('dateTime').textContent = 'When: ' + event.date + ' at ' + event.time;
         document.getElementById('venue').textContent = 'Venue: ' + event.venue;
         document.getElementById('genre').textContent = 'Genre: ' + event.genre;
-        document.getElementById('ticketPrice').textContent = 'Ticket Price: $' + event.ticketPrice;
-        document.title = `Live Events- ${event.eventName}`;
+        document.getElementById('ticketPrice').textContent = 'Ticket Price: $' + (event.ticketPrice ?? event.ticket_price);
+        document.title = `Live Events - ${event.event_name || 'Event'}`;
 
     }
     else{
