@@ -29,7 +29,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-[listicle2.0]()
+[listicle2.0](https://github.com/ldpina/listicle1.0/blob/listicle2.0/listicle20.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ScreenToGif  GIF tool here
